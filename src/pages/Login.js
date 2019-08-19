@@ -7,8 +7,6 @@ import logo from '../assets/logo.svg';
 
 export default function Login({ history }) {
     
-
-    
     const [username, setUsername] = useState('');
 
     async function handleSubmit(e){
